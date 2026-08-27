@@ -12,6 +12,6 @@ First, discuss the project with the user until you understand and can clearly ar
 
 Then, crystalize the outcomes, insights, and decisions of the discussion as follows:
 
-1. Architectural decisions in the relevant files in `Agent/Project/Architecture/`.
-2. The project's phases in `Agent/Project/Progress/Progress.sqlite`.
-3. The project's overview in `Agent/Project/ProjectOverview.md`.
+1. Architectural decisions in the relevant files in `Tactus/Project/Architecture/`.
+2. The project's phases in `Tactus/Project/Progress/Progress.sqlite`.
+3. The project's overview in `Tactus/Project/ProjectOverview.md`.

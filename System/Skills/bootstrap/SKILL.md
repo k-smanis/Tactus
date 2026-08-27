@@ -5,6 +5,6 @@ description: Initialize or restore the Tactus working context before project wor
 
 # Bootstrap
 
-Follow `Agent/System/Bootstrap.md` completely.
+Follow `Tactus/System/Bootstrap.md` completely.
 
 Do not begin project work. When bootstrapping is complete, return control to the user as directed by the bootstrap.

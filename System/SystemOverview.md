@@ -8,10 +8,10 @@ Tactus has three parts:
 
 ## Structure
 
-`Agent/` separates the reusable Tactus system from project-specific knowledge and progress.
+`Tactus/` separates the reusable Tactus system from project-specific knowledge and progress.
 
 ```text
-Agent/
+Tactus/
 |-- System/
 |   |-- SystemOverview.md
 |   |-- Bootstrap.md
@@ -58,7 +58,7 @@ Contains project-specific knowledge, standards, and progress state. It is not tr
 
 ## Skills
 
-Skills define reusable procedures; project files and progress tracking hold project knowledge and work state. Skills may read or update `Agent/Project/`, but must not embed project-specific knowledge themselves.
+Skills define reusable procedures; project files and progress tracking hold project knowledge and work state. Skills may read or update `Tactus/Project/`, but must not embed project-specific knowledge themselves.
 
 | Skill                   | Use                                                                          |
 | ----------------------- | ---------------------------------------------------------------------------- |
@@ -68,7 +68,7 @@ Skills define reusable procedures; project files and progress tracking hold proj
 | `/review`               | Evaluate work against relevant intent, architecture, and standards.          |
 | `/log`                  | Record an important event or discovery.                                      |
 | `/recover`              | Diagnose a degraded session and recommend how to recover it.                 |
-| `/help`                 | Explain how to use Tactus and its skills.                                     |
+| `/help`                 | Explain how to use Tactus and its skills.                                    |
 | `/improve`              | Improve and publish the reusable Tactus system.                              |
 
 ## Progress Tracking

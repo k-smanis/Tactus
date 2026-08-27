@@ -14,4 +14,4 @@ Then:
 3. Commit the changes to the Tactus repository.
 4. Push the commit to its configured remote repository.
 
-Never modify, stage, commit, or push anything inside `Agent/Project/` or outside the Tactus repository.
+Never modify, stage, commit, or push anything inside `Tactus/Project/` or outside the Tactus repository.

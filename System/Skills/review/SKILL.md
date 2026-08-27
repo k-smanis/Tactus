@@ -22,4 +22,4 @@ Then:
 
 Then:
 
-- Once all issues have been resolved and the changes have been committed, update the relevant progress in `Agent/Project/Progress/Progress.sqlite`.
+- Once all issues have been resolved and the changes have been committed, update the relevant progress in `Tactus/Project/Progress/Progress.sqlite`.
