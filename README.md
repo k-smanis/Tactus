@@ -15,7 +15,7 @@ Tactus provides project context, structured progress tracking, and reusable skil
 2. Add `/Agent/` to that project's `.gitignore` so its repository does not track the Tactus repository or project context.
 3. Install each skill in `Agent/System/Skills/` into the skill directory of your harness (e.g. Claude Code, Codex, etc.).
 4. Restart or reload the agent if required for newly installed skills to become available.
-5. Run `/bootstrap` to setup your agent for development on your project.
+5. Run `/bootstrap` to initialize the local `Project/` workspace and prepare the agent for development.
 
 ### Get Help
 

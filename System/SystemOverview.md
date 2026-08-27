@@ -33,7 +33,7 @@ Contains the reusable Tactus system. Changes made here can be contributed to the
 
 #### `Bootstrap.md`
 
-This is the agent's entry point. It identifies the information that must be loaded at the start of a session. After loading it, the agent asks any necessary clarifying questions or asks the user how to proceed.
+This is the agent's entry point. It initializes any missing local project files and progress database, loads the required context, and then asks any necessary clarifying questions or asks the user how to proceed.
 
 #### `SystemOverview.md`
 
