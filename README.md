@@ -5,7 +5,7 @@ Tactus provides project context, structured progress tracking, and reusable skil
 ## Project Structure
 
 - `System/` contains the reusable system and is tracked by this repository.
-- `Project/` contains knowledge and progress specific to the current project and is ignored by this repository.
+- `Project/` is included as an empty project workspace. Its initialized contents contain project-specific knowledge and progress and are ignored by this repository.
 
 ## Guides
 
