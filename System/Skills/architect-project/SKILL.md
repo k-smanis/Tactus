@@ -57,3 +57,5 @@ Only after the readiness review is approved, crystallize the outcomes, insights,
 1. Architectural decisions in the relevant files in `Tactus/Project/Architecture/`.
 2. The project's phases in `Tactus/Project/Progress/Progress.sqlite`.
 3. The project's overview in `Tactus/Project/ProjectOverview.md`.
+
+Do not create initiatives or tasks. When complete, return control to the user and recommend `/architect-phase` when the first phase is about to begin.

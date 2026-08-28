@@ -64,7 +64,8 @@ Skills define reusable procedures; project files and progress tracking hold proj
 | ----------------------- | ---------------------------------------------------------------------------- |
 | `/bootstrap`            | Establish the minimum context needed to enter the project.                   |
 | `/architect-project`    | Define project intent, architecture, considerations, and development phases. |
-| `/architect-initiative` | Define an initiative and its tasks within the phase being undertaken.        |
+| `/architect-phase`      | Define the initiatives needed to achieve the phase being undertaken.         |
+| `/architect-initiative` | Define the tasks needed to achieve an initiative in the active phase.        |
 | `/review`               | Evaluate work against relevant intent, architecture, and standards.          |
 | `/log`                  | Record an important event or discovery.                                      |
 | `/recover`              | Diagnose a degraded session and recommend how to recover it.                 |
@@ -78,8 +79,14 @@ Skills define reusable procedures; project files and progress tracking hold proj
 ### Phase-Driven Development
 
 Development is organized into an ordered sequence of phases defined before project development begins.
-When work begins on a phase, initiatives and tasks are created for that phase as needed and so tasks should not be created prematurely for future phases.
+When a phase is about to begin, its initiatives are defined. When an initiative is about to begin, its tasks are defined. Initiatives and tasks should not be created prematurely for future phases.
 Phases have initiatives, initiatives have tasks, and so every task ultimately is tied to a phase.
+
+The architecture workflow mirrors this hierarchy:
+
+1. `/architect-project` defines the project and its phases.
+2. `/architect-phase` defines the initiatives for the phase being undertaken.
+3. `/architect-initiative` defines the tasks for the initiative being undertaken.
 
 ### Event-Driven Development
 
